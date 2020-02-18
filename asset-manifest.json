@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/vesoft/static/css/main.7b6520b8.chunk.css",
+    "main.js": "/vesoft/static/js/main.9d64ad54.chunk.js",
+    "main.js.map": "/vesoft/static/js/main.9d64ad54.chunk.js.map",
+    "runtime-main.js": "/vesoft/static/js/runtime-main.ac545dd7.js",
+    "runtime-main.js.map": "/vesoft/static/js/runtime-main.ac545dd7.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/vesoft/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.bea42959.chunk.js": "/vesoft/static/js/2.bea42959.chunk.js",
+    "static/js/2.bea42959.chunk.js.map": "/vesoft/static/js/2.bea42959.chunk.js.map",
+    "index.html": "/vesoft/index.html",
+    "precache-manifest.c6ec15ac6fe7b1cc6e8fc12ea7fc1c4d.js": "/vesoft/precache-manifest.c6ec15ac6fe7b1cc6e8fc12ea7fc1c4d.js",
+    "service-worker.js": "/vesoft/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/vesoft/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.7b6520b8.chunk.css.map": "/vesoft/static/css/main.7b6520b8.chunk.css.map",
+    "static/js/2.bea42959.chunk.js.LICENSE": "/vesoft/static/js/2.bea42959.chunk.js.LICENSE",
+    "static/media/App.css": "/vesoft/static/media/vesoft_wwd.13f04b45.png",
+    "static/media/internet.svg": "/vesoft/static/media/internet.6c9295dc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac545dd7.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.bea42959.chunk.js",
+    "static/css/main.7b6520b8.chunk.css",
+    "static/js/main.9d64ad54.chunk.js"
+  ]
+}
