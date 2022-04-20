@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>MSP WEBSITE</title>
+</head>
+
+<body id="top" class="bg-dark">
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand text-danger" href="#top">Paints Production, Sales &amp; Services</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#about_sect">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#whatwedo_sect">What We Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#_contacts">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <!-- header_section -->
+  <section id="header_section">
+    <aside class="container">
+    </aside>
+  </section>
+
+  <!-- s4_about -->
+  <section class="py-5" id="about_sect">
+    <div class="container py-5 about_grid">
+      <div class="hd-about">
+        <h1 class="text-danger">About Us</h1>
+      </div>
+      <p class="txt-about "><strong>Mission Strides</strong>
+        has built a reputation that has spanned over 17 years.
+        With a penchant for top-quality work and prompt delivery,
+        we have won the hearts of many clients within the Calabar
+        environs and even outside. Our mission is to be top on the list of
+        global paint manufacturers, painting service providers and marketers.
+        To achieve this, we are currently involved in research and development,
+        training of our staff in world-class paint institutes as well as constantly standardizing
+        our laboratories with SON and other relevant bodies</p>
+      <div class="img-selfportrait">
+        <img class="img-fluid" src="img/ourStory3.png" alt=""></div>
+    </div>
+
+  </section>
+
+  <!-- whatwedo_sect -->
+  <section class="py-5" id="whatwedo_sect">
+    <div class="container py-5">
+      <h1 class="text-danger">Our Story</h1>
+      <div class="my-thumbs">
+        <a href="#" data-toggle="modal" data-target="#prints1"> <img class="img-fluid" src="img/Portfolio3.png"
+            alt="Our Paint Products"></a>
+        <a href="#" data-toggle="modal" data-target="#prints2"> <img class="img-fluid" src="img/proj11.jpg"
+            alt="Some Interior Paintings"></a>
+      </div>
+    </div>
+  </section>
+
+  <!--contact -->
+  <section class="py-5" id="_contacts">
+    <div class="container contacts_grid py-5">
+      <aside class="contact-copy">
+        <h1 class="text-danger">Contact</h1>
+        <p>
+          MISSION STRIDES PAINTS <br>
+          3 Hewett Street <br>
+          Calabar, Cross River State <br>
+          08037142672 <br>
+          okpoekpes@yahoo.com
+        </p>
+      </aside>
+      <p class="contact-map"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.884140916746!2d8.318010450241443!3d4.95892239638231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10678631d180c3bf%3A0x92d8ac058b7735fb!2sHewett+St%2C+Duke+Town%2C+Calabar!5e0!3m2!1sen!2sng!4v1566152732652!5m2!1sen!2sng"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('a[href^="#"]').on('click', function (e) {
+        e.preventDefault();
+
+        var target = this.hash,
+          $target = $(target);
+
+        $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+          window.location.hash = target;
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
